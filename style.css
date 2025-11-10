@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+    display: flex;
+    padding-left: 10px;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(39, 9, 237);
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar {
+    background-color: rgb(239, 126, 13);
+    display: flex;
+    justify-content: space-between;
+    border: 2px dotted black;
+    margin: 10px 0;
+    width: 70%;
+    padding: 3px;
+
+}
+
+/* header finito */
+
+.hero-section {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.hero-content {
+    width: 55%;
+    background-color: aqua;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px dotted black;
+}
+
+/* seconda e quarta section */
+
+.features-section {
+    padding: 30px 0;
+    background-color: rgb(10, 97, 29);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-content {
+    width: 70%;
+    background-color: aquamarine;
+    height: 250px;
+    display: flex;
+}
+
+.feature-item-1 {
+    flex-basis: 60%;
+    background-color: beige;
+    border: 2px dotted;
+}
+
+.feature-item-2 {
+    flex-basis: 40%;
+    background-color: rgb(39, 39, 12);
+    border: 2px dotted;
+}
+
+/* terza section */
+
+.features-section2 {
+    padding: 30px 0;
+    background-color: rgb(136, 27, 127);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-content {
+    width: 70%;
+    background-color: aquamarine;
+    height: 250px;
+    display: flex;
+}
+
+.feature-item-3 {
+    flex-basis: 40%;
+    background-color: rgb(60, 7, 149);
+    border: 2px dotted;
+}
+
+.feature-item-4 {
+    flex-basis: 60%;
+    background-color: rgb(233, 233, 43);
+    border: 2px dotted;
+}
+
+/* penultima section */
+
+.box-gray {
+    background-color: gray;
+    display: flex;
+    padding: 30px 0;
+}
+
+.box-gray-inside {
+    background-color: greenyellow;
+    height: 500px;
+    flex-basis: 70%;
+    margin: 0 auto;
+    border: 4px dotted black;
+}
+
+/* footer */
+.pie-di-pagina {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.foot-container {
+    min-height: 300px;
+    flex-basis: 70%;
+    border: 5px dotted white;
+    display: flex;
+    margin: 20px 0;
+}
+
+.left-box {
+    flex-basis: calc((100 / 4) *12);
+    background-color: brown;
+    border-right: 4px dotted black;
+}
+
+.right-box {
+    background-color: blueviolet;
+    display: flex;
+
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+
+.col-3 {
+    flex-basis: calc((100% / 12) * 4);
+    background-color: blanchedalmond;
+    border: 2px dotted black;
+}
+
+/* bottoni finali */
+
+.bottoni-finali {
+    display: flex;
+    background-color: #20b2aa;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+
+}
+
+.logo,
+.bottone {
+    background-color: rgb(213, 120, 136);
+    border: 3px dotted black;
+    padding: 5px;
+}
