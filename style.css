@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-ul,
-li {
-    list-style-type: none;
-    display: flex;
-    padding-left: 10px;
+a {
+    text-decoration: none;
 }
 
+.white-nav {
+    padding-left: 30px;
+    color: white;
+}
 
 .container {
     width: 80%;
@@ -25,39 +26,40 @@ header {
 }
 
 .navbar {
-    background-color: rgb(239, 126, 13);
     display: flex;
     justify-content: space-between;
-    border: 2px dotted black;
     margin: 10px 0;
-    width: 70%;
+    width: 90%;
     padding: 3px;
-
+    color: white;
+    align-items: center;
 }
 
 /* header finito */
 
+
 .hero-section {
-    background-color: beige;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
+    background-image: url(./img/jumbo.png);
+    height: 500px;
+background-size: cover;
 }
 
 .hero-content {
     width: 55%;
-    background-color: aqua;
     height: 200px;
     margin: 0 auto;
-    border: 2px dotted black;
+    text-align: center;
+    align-content: flex-end;
+    color: white;
 }
 
 /* seconda e quarta section */
 
 .features-section {
     padding: 30px 0;
-    background-color: rgb(10, 97, 29);
     display: flex;
     width: 100%;
     justify-content: center;
@@ -66,20 +68,17 @@ header {
 
 .features-content {
     width: 70%;
-    background-color: aquamarine;
     height: 250px;
     display: flex;
 }
 
 .feature-item-1 {
     flex-basis: 60%;
-    background-color: beige;
     border: 2px dotted;
 }
 
 .feature-item-2 {
     flex-basis: 40%;
-    background-color: rgb(39, 39, 12);
     border: 2px dotted;
 }
 
