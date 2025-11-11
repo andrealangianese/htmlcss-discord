@@ -59,12 +59,9 @@ background-size: cover;
 /* seconda e quarta section */
 
 .features-section {
-    padding: 30px 0;
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 50px;
 }
 
@@ -86,9 +83,7 @@ background-size: cover;
 /* terza section */
 
 .features-section2 {
-    padding: 30px 0;
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
     height: 500px;
@@ -104,6 +99,7 @@ background-size: cover;
 
 .feature-item-3 {
   flex-basis: 40%;
+  margin: auto 0;
 }
 
 .feature-item-4 {
@@ -128,11 +124,9 @@ background-size: cover;
 }
 
 .box-gray-inside {
-    background-color: greenyellow;
-    height: 500px;
     flex-basis: 70%;
     margin: 0 auto;
-    border: 4px dotted black;
+    text-align: center;
 }
 
 /* footer */
@@ -147,19 +141,15 @@ background-size: cover;
 .foot-container {
     min-height: 300px;
     flex-basis: 70%;
-    border: 5px dotted white;
     display: flex;
     margin: 20px 0;
 }
 
 .left-box {
     flex-basis: calc((100 / 4) *12);
-    background-color: brown;
-    border-right: 4px dotted black;
 }
 
 .right-box {
-    background-color: blueviolet;
     display: flex;
 
 }
@@ -174,15 +164,12 @@ background-size: cover;
 
 .col-3 {
     flex-basis: calc((100% / 12) * 4);
-    background-color: blanchedalmond;
-    border: 2px dotted black;
 }
 
 /* bottoni finali */
 
 .bottoni-finali {
     display: flex;
-    background-color: #20b2aa;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -192,12 +179,17 @@ background-size: cover;
 
 .logo,
 .bottone {
-    background-color: rgb(213, 120, 136);
     border: 3px dotted black;
     padding: 5px;
 }
 
 .foot {
     display: block;
-    
+    padding-top: 20px;
+    color: white;
+
+}
+
+footer {
+    background-color: rgb(5, 80, 55);
 }
